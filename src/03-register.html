@@ -46,17 +46,22 @@
       text-shadow: none;
       /* Prevent inheritance from `body` */
     }
+    .container-main{
+      display: flex;
+      justify-content: center;
+
+    }
   </style>
 </head>
 
 <body class="vh-100 text-center text-bg-dark">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
 
     </header>
 
-    <main class="px-3">
-      <div class="container w-50 text-white p-3" style="background-color: rgb(61, 90, 152, 0.5); color: #fff;">
+    <main class="container-main">
+      <div class="text-white p-3" style="background-color: rgb(61, 90, 152, 0.5); color: #fff;">
         <h3 class="rubik">REGISTER</h3>
         <form class="rubik " method="POST">
           <div class="form-group p-3">
