@@ -37,10 +37,6 @@
       object-fit: cover;
     }
 
-    .cover-container {
-      max-width: 80%;
-    }
-
     .font-weight-bold {
       font-weight: 900;
     }
@@ -58,7 +54,7 @@
 </head>
 
 <body class="d-flex vh-100 text-center text-bg-white">
-  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+  <div class="cover-container h-100 p-3 mx-auto flex-column" style="min-height: 100vh;">
     <header class="mx-auto flex justify-between items-center p-4 flex-wrap gap-2 sticky-top">
       <img src="img/01-logo.png" class="h-8" style="object-fit: contain;" />
       <div class="flex flex-row items-center font-semibold flex-wrap sm:flex-wrap" style="text-decoration: none;">
@@ -76,7 +72,7 @@
     <main>
       <div class="container px-4 d-flex vw-100 h-100 mx-auto flex-column">
         <div class="row gx-5 text-center">
-          <div class="col">
+          <div class="col d-flex justify-content-center">
             <div class="p-2 border">
               <img src="img/ozora.jpg" class="p-3" />
               <h3 class="open-sans p-3 font-weight-bold">
@@ -91,13 +87,13 @@
               </button>
             </div>
           </div>
-          <div class="col">
-            <div class="p-2 border">
+          <div class="col d-flex justify-content-center ">
+            <div class="p-2 border ">
               <img src="img/tanjak.png" class="p-3" />
               <h3 class="open-sans p-3 font-weight-bold">
                 TANJAK PHOTOGRAPHY
               </h3>
-              <h4 class="open-sans p-3">
+              <h4 class="open-sans p-3 d-flex flex-wrap">
                 Alamat: Jalan Letjend.S. Parman No.52, Suka Maju, Sail
               </h4>
               <h4 class="open-sans p-3">Jam: 09.00&#8211;17.00</h4>
@@ -106,7 +102,7 @@
               </button>
             </div>
           </div>
-          <div class="col">
+          <div class="col d-flex justify-content-center">
             <div class="p-2 border">
               <img src="img/maxi.jpg" class="p-3" />
               <h3 class="open-sans p-3 font-weight-bold">
